@@ -1,0 +1,76 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: url(assets/img/a.jpg) no-repeat; 
+    background-size: cover;
+    width: 100%;
+}
+
+.header{
+    height: 100px;
+    padding-top: 25px;
+    padding-right: 75px;
+}
+
+.title{
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: 700;
+    margin-left: 3%;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}
+
+.title a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline;
+}
+
+.nav li a{
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.nav li a:hover{
+    color: yellow;
+    font-size: 1.1em;
+    text-decoration: underline;
+    font-weight:bold;
+}
+/*Header--------------------------------------------------------------------*/
+
+.container {
+    margin-top: 1%;
+    border: 5px solid gray;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container h3{
+    margin-top: 2%;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+label{
+    font-style: bold;
+    color: whitesmoke;
+}
+
+.txt{
+    width: 700px;
+    overflow: hidden;
+    border-bottom: 2px solid white;
+}
+
+.txt input{
+    border:none;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+/*Form--------------------------------------------------------------------*/
